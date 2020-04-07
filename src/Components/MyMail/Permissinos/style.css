@@ -1,0 +1,11 @@
+
+.section-header-title {
+    font-size: 1.6rem;
+    font-family: 'Segoe UI';
+}
+
+
+#Permission-Table td:hover
+{
+    background-color: white !important;
+}

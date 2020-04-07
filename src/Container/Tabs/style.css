@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid #5a5a5a;
+}
+
+.Selected-Link {
+    background-color: #ffffff;
+    color:#323232 !important;
+}
+
+.Not-Selected-Link {
+    color:#fbfbfb;
+}
+
+
+table tr:last-child td {
+    border-bottom: 0;
+    border-top: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
+}
+
+td:hover {
+    background-color: #505050;  
+}
+
+td:active a {
+    background-color: #ffffff;
+    color:#323232 !important;
+}
+
+a {
+    cursor: pointer;
+}
